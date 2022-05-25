@@ -1,0 +1,28 @@
+- change branch
+  - git checkout <branch_name> && git pull
+
+- create branch
+  - git checkout -b <feature_branch_name>
+
+- add changes to git repo via cmd/terminal
+  - git add .
+  - git commit -m "<commit_message>"
+  - git push
+
+- add changes to git repo via vscode
+  - go to source control
+  - click on (+) icon next to all the files that you need to add
+  - write commit message in the input above the file list and click on check icon ()
+  - click on (...) icon and click push
+
+- fetch latest code from git
+  - git pull
+  OR
+  - go to source control
+  - click on (...) icon and click pull
+
+- typical work flow
+  - create a branch
+  - make your change / implement new feature
+  - push code to git
+  - create a Pull Request (PR) in github
