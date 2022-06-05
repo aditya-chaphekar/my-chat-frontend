@@ -1,7 +1,13 @@
 import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+
+import Router from './pages/Router'
 import './styles/app.sass'
-import App from './pages/App'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 
-root.render(<App />)
+root.render(
+  <BrowserRouter>
+    <Router />
+  </BrowserRouter>,
+)
